@@ -13,6 +13,8 @@ gem 'puma', '~> 3.7'
 
 gem 'mysql2', '~> 0.4.9'
 
+gem 'jwt', '~> 2.1'
+
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'

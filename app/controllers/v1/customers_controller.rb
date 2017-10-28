@@ -1,7 +1,7 @@
-class CustomersController < ApplicationController
+class V1::CustomersController < ApplicationController
   def index
 		@customers = Customer.all
-		render json: @customers
+    render json: @customers
 	end
 
 	def show
